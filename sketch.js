@@ -102,10 +102,10 @@ let gameState={
          
          enemy.x+=1.5;
          if(step===true){
-             road.x-=10;
-             enemy.x-=10;
-             stripes.x-=10;
-             finishLine.x-=10;
+             road.x-=15;
+             enemy.x-=15;
+             stripes.x-=15;
+             finishLine.x-=15;
              step=false;
          }
          if(char.x+75>finishLine.x&&lose===false){
