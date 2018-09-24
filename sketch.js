@@ -100,7 +100,7 @@ let gameState={
          enemy.draw();
          char.walking();
          
-         enemy.x+=1.5;
+         enemy.x+=2;
          if(step===true){
              road.x-=15;
              enemy.x-=15;
